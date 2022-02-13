@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+#header{
+    height: 200px;
+    color: white;
+    background-color:rgb(228, 13, 48);
+}
+#header>div{
+    height: 30%;
+    width:fit-content;
+    margin: 5px auto;
+    padding: 20px;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#control{
+    display: flex;
+    height: 50px;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#new-color{
+    width:30%;
+    padding-left: 10px;
+    /* margin: 0px 10px; */
+    cursor: pointer;
+}
+
+#result{
+    width: 40%;
+    text-align: right;
+    /* margin: 0px 20px; */
+    /* border: 1px solid black; */
+}
+
+#easy{
+    width:fit-content;
+    cursor: pointer;
+    margin-left: 100px;
+    /* margin: 0px 10px; */
+}
+
+#hard{
+    width: fit-content;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+#new-color:hover{
+    background-color: cyan;
+}
+#easy:hover,#hard:hover{
+    background-color: cyan;
+}
+
+#body{
+    background-color: black;
+    height: 65vh;
+}
+#row1,#row2{
+    display: flex;
+    height: 40%;
+    width: 40%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 10px;
+}
+#box1{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    color:white;
+    border-radius: 5px;
+    background-color: violet;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+#box2{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    color:white;
+    border-radius: 5px;
+    background-color: maroon;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+#box3{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    color:white;
+    border-radius: 5px;
+    background-color: chartreuse;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+#row2{
+    display: none;
+}
+#box4{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    color:white;
+    border-radius: 5px;
+    background-color: lavender;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+#box5{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    color:white;
+    border-radius: 5px;
+    background-color: lemonchiffon;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+#box6{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    color:white;
+    border-radius: 5px;
+    background-color: blue;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
